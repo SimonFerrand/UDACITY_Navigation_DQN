@@ -24,7 +24,7 @@ According to Udacity: "The state space has 37 dimensions and contains the agent'
 * 3 - turn right.
 
 ## Setup Instructions
-## Getting Started
+### Getting Started
 
 Follow the instructions defined [here](https://github.com/udacity/deep-reinforcement-learning/tree/master) for downloading and installing.
 
@@ -32,7 +32,7 @@ My installation was based on
 * Windows 10 x64-based PC
 * Python 3.6.13 :: Anaconda, Inc.
 
-## Download the Unity Environment
+### Download the Unity Environment
 For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
 * Windows (64-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 * Windows (32-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -41,7 +41,7 @@ For this project, you will not need to install Unity - this is because we have a
 
 Then, place the file in your Projet1_Bananas / folder, and unzip (or decompress) the file.
 
-## Clone the Course Repository
+### Clone the Course Repository
 
 ```bash
 # Instructions from Deep RL course for environment setup
