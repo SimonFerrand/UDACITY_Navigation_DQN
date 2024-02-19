@@ -1,7 +1,9 @@
 
-Projet 1 Navigation
+# Projet 1 Navigation
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+## Introduction
+
+!(./navigation.gif)
 
 This project trains an agent to interact with Udacity's Bananas World such that it learns to pickup the yellow banans (+1) and ignore the blue bananas (-1) within each episode.
 
@@ -19,24 +21,25 @@ According to Udacity: "The state space has 37 dimensions and contains the agent'
 * 2 - turn left.
 * 3 - turn right.
 
+## Setup Instructions
 ## Getting Started
 
-After following the instructions defined here for downloading and installing: https://github.com/udacity/deep-reinforcement-learning/tree/master
+Follow the instructions defined [here](https://github.com/udacity/deep-reinforcement-learning/tree/master) for downloading and installing.
 
 My installation was based on 
 * Windows 10 x64-based PC
 * Python 3.6.13 :: Anaconda, Inc.
 
-# Download the Unity Environment
+## Download the Unity Environment
 For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
-* Windows (64-bit):https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
-* Windows (32-bit):https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
-* Linux:https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
-* Mac OSX:https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
+* Windows (64-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+* Windows (32-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+* Linux [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+* Mac OSX [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
 
 Then, place the file in your Projet1_Bananas / folder, and unzip (or decompress) the file.
 
-# Clone the Course Repository
+## Clone the Course Repository
 
 ```bash
 # Instructions from Deep RL course for environment setup
@@ -61,4 +64,15 @@ python -m ipykernel install --user --name DRL_udacity_cpu --display-name "Python
 popd
 pushd Projet1_Bananas
 ```
+## Training the Agent
 
+To start training the agent:
+
+1. Launch Jupyter Notebook by running `jupyter notebook` in your terminal.
+2. Open the notebook `Navigation_loss_weights_gradiants.ipynb`.
+3. Update the path to the Bananas environment in the notebook to match your local setup.
+4. Execute the notebook cells to begin training the agent.
+
+## Abstract
+
+This [Report.pdf](./Report.pdf) report outlines the implementation and results of a Deep Q Network (DQN) applied to the Navigation problem from the Unity ML Agents environment. The goal is to train an agent to navigate a space and collect yellow bananas while avoiding blue ones. The DQN agent was successfully trained to achieve an average score of +13 over 100 consecutive episodes, indicating satisfactory learning and problem solving within the environment.
