@@ -77,4 +77,4 @@ To start training the agent:
 
 ## Abstract
 
-This [Report.pdf](./Report.pdf) report outlines the implementation and results of a Deep Q Network (DQN) applied to the Navigation problem from the Unity ML Agents environment. The goal is to train an agent to navigate a space and collect yellow bananas while avoiding blue ones. The DQN agent was successfully trained to achieve an average score of +13 over 100 consecutive episodes, indicating satisfactory learning and problem solving within the environment.
+The [Report.pdf](./Report.pdf) report outlines the implementation and results of a Deep Q Network (DQN) applied to the Navigation problem from the Unity ML Agents environment. The goal is to train an agent to navigate a space and collect yellow bananas while avoiding blue ones. The DQN agent was successfully trained to achieve an average score of +13 over 100 consecutive episodes, indicating satisfactory learning and problem solving within the environment.
