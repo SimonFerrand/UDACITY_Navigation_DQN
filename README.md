@@ -3,7 +3,9 @@
 
 ## Introduction
 
-!(./navigation.gif)
+This project is the first major assignment of the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) course offered by UDACITY.
+
+(./navigation.gif)
 
 This project trains an agent to interact with Udacity's Bananas World such that it learns to pickup the yellow banans (+1) and ignore the blue bananas (-1) within each episode.
 
