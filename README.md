@@ -32,15 +32,6 @@ My installation was based on
 * Windows 10 x64-based PC
 * Python 3.6.13 :: Anaconda, Inc.
 
-### Download the Unity Environment
-For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
-* Windows (64-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-* Windows (32-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-* Linux [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-* Mac OSX [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-
-Then, place the file in your Projet1_Bananas / folder, and unzip (or decompress) the file.
-
 ### Clone the Course Repository
 
 ```bash
@@ -51,7 +42,7 @@ conda activate DRL_udacity_cpu
 # after creating new conda python environment
 cd <path/to/dev/directory>
 git clone https://github.com/udacity/deep-reinforcement-learning.git
-git clone https://github.com/Yoshiokha/Deep_Reinforcement_Learning_Nanodegree_UDACITY/Projet1_Bananas.git
+git clone https://github.com/SimonFerrand/UDACITY_Navigation_DQN/Projet1_Bananas.git
 pushd Projet1_Bananas
 
 # Modify requirements.txt to download torch==0.4.0 using the link provided below. Standard installation methods using pip or conda do not work for this specific version. Please note, this link is only compatible with Windows systems. For other versions or operating systems, visit PyTorch's previous versions page to find the appropriate download link.https://pytorch.org/get-started/previous-versions/
@@ -66,6 +57,15 @@ python -m ipykernel install --user --name DRL_udacity_cpu --display-name "Python
 popd
 pushd Projet1_Bananas
 ```
+### Download the Unity Environment
+For this project, you will not need to install Unity - this is because we have already built the environment for you, and you can download it from one of the links below. You need only select the environment that matches your operating system:
+* Windows (64-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+* Windows (32-bit) [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+* Linux [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+* Mac OSX [Download](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+
+Then, place the file in your Projet1_Bananas / folder, and unzip (or decompress) the file.
+
 ## Training the Agent
 
 To start training the agent:
