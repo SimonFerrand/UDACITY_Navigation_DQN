@@ -42,7 +42,7 @@ conda activate DRL_udacity_cpu
 # after creating new conda python environment
 cd <path/to/dev/directory>
 git clone https://github.com/udacity/deep-reinforcement-learning.git
-git clone https://github.com/SimonFerrand/UDACITY_Navigation_DQN/Projet1_Bananas.git
+git clone https://github.com/SimonFerrand/UDACITY_Navigation_DQN.git
 pushd Projet1_Bananas
 
 # Modify requirements.txt to download torch==0.4.0 using the link provided below. Standard installation methods using pip or conda do not work for this specific version. Please note, this link is only compatible with Windows systems. For other versions or operating systems, visit PyTorch's previous versions page to find the appropriate download link.https://pytorch.org/get-started/previous-versions/
